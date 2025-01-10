@@ -1,0 +1,18 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    height:100vh;
+    background: linear-gradient(to bottom,#000000,#0B192C,black);
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    overflow-x: hidden;
+}
+
+html{
+    overflow-x: hidden;
+}

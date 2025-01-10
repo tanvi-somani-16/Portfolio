@@ -1,0 +1,71 @@
+.contact-title p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  font-family: "Lora";
+  font-weight: 500;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  background: linear-gradient(to bottom, #0059ff, white);
+  -webkit-background-clip: text;
+  color: transparent;
+  outline: none;
+}
+
+.contact-start {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  gap: 40px;
+}
+
+.contact-info {
+  height: 50vh;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact-info p {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Lora";
+  margin: 0;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.contact-details p {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  margin: 0;
+  padding: 10px 20px 10px 20px;
+}
+
+.contact-details p svg{
+    margin-right: 20px;
+}
+
+.contact-details p a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.contact-bg img {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 25vh;
+}
+
+

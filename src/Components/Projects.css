@@ -1,0 +1,70 @@
+
+
+.project-title p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    font-family: "Lora";
+    font-weight: 500;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    background: linear-gradient(to bottom, #225ecd, white);
+    -webkit-background-clip: text;
+    color: transparent;
+    outline: none;
+}
+
+.project-content ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    gap: 40px;
+    justify-content: center;
+}
+
+.project-content li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    width: 35vw;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
+}
+
+.project-content h1 {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 2.0rem;
+}
+
+.project-content img {
+    height: 15rem;
+    width: 25rem;
+    margin: 15px 0;
+    border: 2px solid white;
+    box-shadow: 5px 10px 15px rgba(128, 128, 128, 0.5);
+}
+
+.project-content li p {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.project-content a {
+    margin-top: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
