@@ -80,12 +80,12 @@
         height: 300px;
     }
 
-    .h1 span{
-        font-size: 22px;
+    .hero h1 span{
+        font-size: 45px;
     }
 
-    .h1{
-        font-size: 22px;
+    .hero h1{
+        font-size: 30px;
         margin-top: 50px;
     }
 
@@ -112,7 +112,7 @@
         height: 350px;
     }
 
-    .h1{
+    .hero h1{
         font-size: 32px;
     }
 
