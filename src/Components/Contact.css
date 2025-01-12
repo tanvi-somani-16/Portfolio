@@ -78,10 +78,6 @@
     padding: 10px;
     margin:10px;
   }
-  .contact-details{
-    width:65vw;
-  }
-  
   .contact-bg img{
     height:15vh;
   }
@@ -92,7 +88,7 @@
   }
 
   .contact-info {
-    width: 80vw; 
+    width: 35vw; 
     height: auto; 
     padding: 15px;
   }
