@@ -56,9 +56,12 @@
         width:50px;
     }
 
+    .skill-items{
+        margin-left:50px;
+    }
+
     .skill-items p{
         font-size: 15px;
-        margin-left:50px;
     }
 }
 
