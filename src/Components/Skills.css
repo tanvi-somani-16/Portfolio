@@ -13,7 +13,7 @@
     outline: none;
 }
 .skill-items{
-    margin-left:95px;
+    margin-left:100px;
     margin-right: 50px;
 }
 
@@ -55,11 +55,7 @@
         height: 50px;
         width:50px;
     }
-
-    .skill-items{
-        margin-left:65px;
-    }
-
+    
     .skill-items p{
         font-size: 15px;
     }
