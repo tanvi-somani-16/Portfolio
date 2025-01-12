@@ -88,18 +88,18 @@
   }
 
   .contact-info {
-    width: 28vw; 
+    width: 80vw; 
     height: auto; 
     padding: 15px;
   }
 
   .contact-details p {
-    font-size: 13px; 
+    font-size: 11px; 
     padding: 8px 15px;
   }
 
   .contact-details p a {
-    font-size: 13px;
+    font-size: 11px;
     margin-left: 8px;
   }
 }
