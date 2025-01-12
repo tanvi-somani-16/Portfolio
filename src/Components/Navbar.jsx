@@ -1,10 +1,22 @@
-import React from 'react'
+import {React,useState} from 'react'
 import './Navbar.css'
 
 const navbar = () => {
+
+  const [menuopen,setmenuopen]=useState(false);
+
+  const togglemenu=()=>{
+    setmenuopen(!menuopen);
+  }
+
   return (
     <div className='navbar'>
-        <ul className="nav-menu">
+      <div className="hamburger" onClick={togglemenu}>
+        <span className="line"></span>
+        <span className="line"></span>
+        <span className="line"></span>
+      </div>
+        <ul className={`nav-menu ${menuopen ? 'open' : ''}`}>
           <a href='/'><li>Home</li></a>
           <a href='#about_page'><li>About Me</li></a>
           <a href='#skills_page'><li>Skills</li></a>
