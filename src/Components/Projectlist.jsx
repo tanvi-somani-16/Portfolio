@@ -8,7 +8,7 @@ const Projectlist = [
         name:'Portfolio',
         src:portfolio,
         text:'A responsive portfolio built with ReactJS for dynamic components and Vite for fast, optimized performance.',
-        linkto:'/'
+        linkto:'https://github.com/tanvi-somani-16/Portfolio.git'
     },
     {
         id:2,
